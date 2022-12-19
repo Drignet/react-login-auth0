@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Auth0Provider
     domain="dev-aadrzr32wne4ukoj.us.auth0.com"
     clientId="z89bTSAPnYqpDTFktrxP7qHM2vXHwUDY"
-    redirectUri={window.location.origin}
+    redirectUri={window.location.origin + '/react-login-auth0/profile'}
     >
     <App />
   </Auth0Provider>
